@@ -1,0 +1,167 @@
+%
+%Independent Study Template.
+% School of Computing
+% University of Colorado at Colorado Springs
+%
+\documentclass[10pt]{proposal}
+%\usepackage{times}
+\usepackage[small,compact]{titlesec}
+\usepackage[small,it]{caption}
+\usepackage{url}
+ \usepackage{hyperref} 
+ \hypersetup{breaklinks} 
+ \usepackage{graphicx}
+ \usepackage{xcolor}
+\usepackage{amssymb}
+\usepackage{longtable}
+\usepackage{pdflscape}
+\usepackage{array}
+\usepackage{blindtext}
+\usepackage{titlesec}
+
+
+% This is nice for source code listings
+% \usepackage{listings}
+
+% This is needed to include figures
+\usepackage{graphicx}
+\usepackage{sidecap}
+
+% Use any additional packages you might need
+
+
+%
+% Give values to the variables used in this document
+%
+\title{Your Title}
+\department{Department of Computer Science\\ at the University of Colorado at Colorado Springs\\ School of Engineering and Applied Science}
+\documenttype{Masters Thesis Proposal} %Revise for yours
+\major{Software Engineering }
+\proposalday{20}%Revise for yours
+\proposalmonth{October}%Revise for yours
+\proposalyear{2014}%Revise for yours
+\author{Your Full Name}
+\committeechair{Kristen Walcott Justice, Advisor} %Revise for yours
+ \committeememberfour{Committee Member 1}
+ \committeememberfive{Committee Member 2}
+
+
+
+%
+% PDF Setup -- You should not need to change this
+%
+\hypersetup{
+    colorlinks,
+    linkcolor={black},
+    citecolor={black},
+    filecolor={black},
+    urlcolor={black},
+    pdftitle={\thetitle},
+    pdfauthor={\theauthor},
+    pdfsubject={\thedocumenttype},
+    pdfkeywords={University of Colorado at Colorado Springs, \theauthor, \thedocumenttype},
+    pdfstartpage={1}
+}
+
+
+%
+% User-specified command definitions/redefinitions
+%
+%\newcommand{\cplusplus}{{\rm C\raise.5ex\hbox{\small ++}}}
+%\setcounter{secnumdepth}{5}
+%\setcounter{tocdepth}{5}
+
+%\makeatletter
+%\renewcommand\paragraph{%
+%   \@startsection{paragraph}{4}{0mm}%
+%      {-\baselineskip}%
+%      {.5\baselineskip}%
+%      {\normalfont\normalsize\bfseries}}
+%\makeatother
+\usepackage{wrapfig}
+
+\newcommand{\squishlist}{
+ \begin{list}{$\bullet$}
+  { \setlength{\itemsep}{0pt}
+     \setlength{\parsep}{3pt}
+     \setlength{\topsep}{3pt}
+     \setlength{\partopsep}{0pt}
+     \setlength{\leftmargin}{1.5em}
+     \setlength{\labelwidth}{1em}
+     \setlength{\labelsep}{0.5em} } }
+
+\newcommand{\squishlisttwo}{
+ \begin{list}{$\bullet$}
+  { \setlength{\itemsep}{0pt}
+     \setlength{\parsep}{0pt}
+    \setlength{\topsep}{0pt}
+    \setlength{\partopsep}{0pt}
+    \setlength{\leftmargin}{2em}
+    \setlength{\labelwidth}{1.5em}
+    \setlength{\labelsep}{0.5em} } }
+
+\newcommand{\squishend}{
+  \end{list}  }
+
+
+\begin{document}
+	
+%   ==========================================================================
+%   Begin front matter (pages are numbered with roman numerals)
+%   ==========================================================================
+  \begin{frontmatter}
+       \maketitle
+        %\tableofcontents
+       \newpage
+
+        % Generate the abstract	
+
+        \input{abstract}
+               \end{frontmatter}
+       
+              
+ \newpage    
+\renewcommand*\contentsname{Contents}           
+\tableofcontents{}
+\newpage    
+
+              
+
+
+
+%   ==========================================================================
+%   Begin main matter (pages are numbered with arabic numerals)
+%   ==========================================================================
+   % \doublepacing     % Text should be double spaced
+    \pagestyle{fancy}  % Turn the nice header on for the rest of the document
+
+    %
+    % I use a file for every section.  Each of these corresponds to a file
+    % with the specified name ending in '.tex' (e.g., introduction.tex).
+    %
+  \input{introduction}
+  \input{background}
+ % \input{Impact}
+ % \input{Discussion} 
+  \input{proposedwork} %6
+  \input{evaluation}
+  \input{completedwork} %3.5
+  \input{relatedwork} %1.5
+  \input{tasksandtimeline} %0.5
+  \input{conclusion}
+  %\input{appendix} 
+
+
+
+%   ==========================================================================
+%   Wrap up the document with the Bibliography (looks for the specified .bib)
+%   ==========================================================================
+\pagebreak    
+
+\makebibliography{sources}
+%\bibliographystyle{bib}
+%\bibliography{bib}
+
+%\input{appendix} %If you need appendices
+
+\end{document}
