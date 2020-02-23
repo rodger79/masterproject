@@ -8,10 +8,10 @@
 \usepackage[small,compact]{titlesec}
 \usepackage[small,it]{caption}
 \usepackage{url}
- \usepackage{hyperref} 
- \hypersetup{breaklinks} 
- \usepackage{graphicx}
- \usepackage{xcolor}
+\usepackage{hyperref} 
+\hypersetup{breaklinks} 
+\usepackage{graphicx}
+\usepackage{xcolor}
 \usepackage{amssymb}
 \usepackage{longtable}
 \usepackage{pdflscape}
@@ -28,7 +28,7 @@
 \usepackage{sidecap}
 
 % Use any additional packages you might need
-
+\usepackage{outlines}
 
 %
 % Give values to the variables used in this document
@@ -42,8 +42,8 @@
 \proposalyear{2020}%Revise for yours
 \author{Rodger William Byrd}
 \committeechair{Kristen Walcott Justice, Advisor} %Revise for yours
- \committeememberfour{Committee Member 1}
- \committeememberfive{Committee Member 2}
+\committeememberfour{Committee Member 1}
+\committeememberfive{Committee Member 2}
 
 
 
@@ -116,11 +116,11 @@
 
         % Generate the abstract	
 
-        \input{abstract}
+       % \input{abstract}
                \end{frontmatter}
        
               
- \newpage    
+\newpage    
 \renewcommand*\contentsname{Contents}           
 \tableofcontents{}
 \newpage    
@@ -132,7 +132,7 @@
 %   ==========================================================================
 %   Begin main matter (pages are numbered with arabic numerals)
 %   ==========================================================================
-   % \doublepacing     % Text should be double spaced
+    \doublespacing     % Text should be double spaced
     \pagestyle{fancy}  % Turn the nice header on for the rest of the document
 
     %
@@ -148,8 +148,8 @@
   \input{completedwork} %3.5
   \input{relatedwork} %1.5
   \input{tasksandtimeline} %0.5
-  \input{conclusion}
-  %\input{appendix} 
+ % \input{conclusion}
+ % \input{appendix} 
 
 
 
