@@ -1,11 +1,31 @@
 \section{Proposed Work}
-The proposed work is to test push notificaitons in Android devices. 
+The proposal for this project is to simulate and automate testing on Andriod OS and Android Wearable devices. 
+The initial focus for the proposed work is to test push notificaitons in Android devices. 
+After the initial emulation is complete additional simulation and automated testing will be developed.
+\subsection{Hypothesis}
+Previous work\cite{sultana_wearable_nodate} showed potential connections between poor push notification performance and the following factors:
+\begin{enumerate}
+ \item Low available device storage
+ \item Missing patches and updates 
+ \item Device carriers result in performance deltas
+ \item Performance varying by version of Android OS
+\end{enumerate}
+The scope of this project will be to build and perform automated testing for these factors and potentially others
 \subsection{Initial Phase}
 \paragraph{Emulation}
-This will involve using Android Studio to emulate and test notifications to determine what can cause delays.
-Use debugging tools to determine what can cause delays in notification in andriod devices and wearable devices.
+Emulation will involve using Android Studio to emulate and test notifications to determine what can cause delays.
+Research will be performed on the built in debugging tools to determine the capacity of those tools to emulate test scenarios.
+hat can cause delays in notification in andriod devices and wearable devices.
 \paragraph{Simulation}
 Simulates criteria that may lead to delays, such has low storage, high memory usage, high processor usage to attempt to determine factors that can lead to delays.
 Review Android OS patching history to determine what fixes have been put in place related to notifications and wearable devices.
-\subsection{Second Phase}
-Test findings from initial phase on actual hardware.
+\paragraph{Automated Testing}
+After the push notification process has been sufficiently modeled, automated testing will be created to test multiple results at one time. 
+This project will use the Android UI frameworks from Google to perform testing, as well as custom software.
+These frameworks include Espresso\cite{noauthor_espresso_nodate} and UI Automator\cite{noauthor_ui_nodate}.
+Espresso is a "white box" tool for developers and can focus on testing one app at a time.
+UI Automator is a "black box" tool and can perform cross-app functional testing including installed and system applications.
+
+\subsection{Additional Phase - Future Work}
+Test findings from initial phase on actual hardware. 
+Future work would be to take the findings from the initial phase which focuses on emulation and simulation and advance to testing on actual device hardware.
