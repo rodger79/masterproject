@@ -1,8 +1,49 @@
 \begin{thebibliography}{1}
 
+\bibitem{al-sharrah_watch_2018}
+M.~Al-Sharrah, A.~Salman, and I.~Ahmad.
+\newblock Watch {Your} {Smartwatch}.
+\newblock In {\em 2018 {International} {Conference} on {Computing} {Sciences}
+  and {Engineering} ({ICCSE})}, pages 1--5, March 2018.
+
+\bibitem{do_is_2017}
+Quang Do, Ben Martini, and Kim-Kwang~Raymond Choo.
+\newblock Is the data on your wearable device secure? {An} {Android} {Wear}
+  smartwatch case study.
+\newblock {\em Software: Practice and Experience}, 47(3):391--403, 2017.
+
+\bibitem{halperin_pacemakers_2008}
+D.~Halperin, T.~S. Heydt-Benjamin, B.~Ransford, S.~S. Clark, B.~Defend,
+  W.~Morgan, K.~Fu, T.~Kohno, and W.~H. Maisel.
+\newblock Pacemakers and {Implantable} {Cardiac} {Defibrillators}: {Software}
+  {Radio} {Attacks} and {Zero}-{Power} {Defenses}.
+\newblock In {\em 2008 {IEEE} {Symposium} on {Security} and {Privacy} (sp
+  2008)}, pages 129--142, May 2008.
+
+\bibitem{halperin_pacemakers_2008-1}
+D.~Halperin, T.~S. Heydt-Benjamin, B.~Ransford, S.~S. Clark, B.~Defend,
+  W.~Morgan, K.~Fu, T.~Kohno, and W.~H. Maisel.
+\newblock Pacemakers and {Implantable} {Cardiac} {Defibrillators}: {Software}
+  {Radio} {Attacks} and {Zero}-{Power} {Defenses}.
+\newblock In {\em 2008 {IEEE} {Symposium} on {Security} and {Privacy} (sp
+  2008)}, pages 129--142, May 2008.
+
+\bibitem{mills_wearing_2016}
+Adam~J. Mills, Richard~T. Watson, Leyland Pitt, and Jan Kietzmann.
+\newblock Wearing safe: {Physical} and informational security in the age of the
+  wearable device.
+\newblock {\em Business Horizons}, 59(6):615 -- 622, 2016.
+
+\bibitem{park_this_2016}
+Youngseok Park, Yunmok Son, Hocheol Shin, Dohyun Kim, and Yongdae Kim.
+\newblock This {Ain}’t {Your} {Dose}: {Sensor} {Spoofing} {Attack} on
+  {Medical} {Infusion} {Pump}.
+\newblock In {\em 10th {USENIX} {Workshop} on {Offensive} {Technologies}
+  ({WOOT} 16)}, Austin, TX, August 2016. USENIX Association.
+
 \bibitem{sultana_wearable_nodate}
 Taniza Sultana.
-\newblock Wearable {Devices}: {Smartwatch}, {Fitness} {Tracker} adn {Call}
+\newblock Wearable {Devices}: {Smartwatch}, {Fitness} {Tracker} and {Call}
   {Notifications} {Delay}.
 
 \end{thebibliography}

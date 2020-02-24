@@ -2,13 +2,10 @@
 \contentsline {section}{\numberline {2}Background and Related Work}{2}{section.2}
 \contentsline {subsection}{\numberline {2.1}Background}{2}{subsection.2.1}
 \contentsline {subsection}{\numberline {2.2}Related Work}{2}{subsection.2.2}
-\contentsline {section}{\numberline {3}Proposed Work}{2}{section.3}
-\contentsline {subsection}{\numberline {3.1}Initial Phase}{2}{subsection.3.1}
-\contentsline {paragraph}{Emulation}{2}{subsection.3.1}
-\contentsline {paragraph}{Simulation}{2}{subsection.3.1}
-\contentsline {subsection}{\numberline {3.2}Second Phase}{2}{subsection.3.2}
-\contentsline {section}{\numberline {4}Completed Work}{2}{section.4}
-\contentsline {subsection}{\numberline {4.1}Survey of related work}{2}{subsection.4.1}
-\contentsline {subsection}{\numberline {4.2}Capabilities of Android Studio}{2}{subsection.4.2}
-\contentsline {section}{\numberline {5}Tasks and Timeline}{2}{section.5}
+\contentsline {section}{\numberline {3}Proposed Work}{3}{section.3}
+\contentsline {subsection}{\numberline {3.1}Initial Phase}{3}{subsection.3.1}
+\contentsline {paragraph}{Emulation}{3}{subsection.3.1}
+\contentsline {paragraph}{Simulation}{3}{subsection.3.1}
+\contentsline {subsection}{\numberline {3.2}Second Phase}{3}{subsection.3.2}
+\contentsline {section}{\numberline {4}Tasks and Timeline}{3}{section.4}
 \contentsline {section}{Bibliography}{4}{section*.1}
